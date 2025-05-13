@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    padding: 0;
+    /* height: 60px; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* padding: 0 60px 0 30px; */
+    /* background-color: rgb(206, 153, 21); */
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.logo-text {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.text-happy {
+    color: rgb(15, 15, 15);
+    margin-right: 5px;
+    letter-spacing: 3px;
+}
+
+.text-builders {
+    color: brown;
+}
+
+.nav-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+    background-color: rgb(8, 8, 100);
+}
+
+.nav-tab {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(172, 171, 171);
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    padding: 0 30px;
+}
+
+.home-tab {
+    background-color: maroon;
+    color: white;
+}
+
+.nav-tab:hover {
+    background-color: maroon;
+    color: white;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.desc {
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/images/housebuilding-3102324_1280.jpg);
+    background-position: center;
+}
+
+.desc-text-heading {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    border-radius:  5px;
+    /* color: rgb(241, 218, 10); */
+    color: maroon;
+    padding: 0 10px;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+}
+
+.desc-text-body {
+    font-size: 60px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: rgb(245, 248, 246);
+    /* color: rgb(252, 232, 58); */
+    margin-bottom: 70px;
+}
+
+.qoute-btn {
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+}
