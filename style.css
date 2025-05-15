@@ -49,7 +49,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 40px;
+    height: 60px;
     background-color: rgb(8, 8, 100);
 }
 
@@ -65,12 +65,12 @@ nav {
 }
 
 .home-tab {
-    background-color: maroon;
+    background-color: rgb(141, 3, 3);
     color: white;
 }
 
 .nav-tab:hover {
-    background-color: maroon;
+    background-color: rgb(177, 69, 69);
     color: white;
     border-left: 1px solid grey;
     border-right: 1px solid grey;
@@ -409,14 +409,90 @@ nav {
     width: 50%;
     height: 100px;
     display: flex;
+    align-items: center;
 }
 
 .record-1 {
     justify-content: flex-end;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .record-2 {
     justify-content: flex-start;
     background-color: goldenrod;
+    padding-left: 20px;
+}
+
+.record-content {
+    display: flex;
+    align-items: center;
+    width: 32%;
+    gap: 15px;
+}
+
+.record-year-txt {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.record-exp-txt {
+    font-size: 11px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.projects-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-photo-con {
+    width: 25%;
+    height: 300px;
+}
+
+.project-photo {
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    z-index: -1;
+}
+
+.project-title-con {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.project-title-con:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+
+.project-title-con:hover .project-title {
+    color: #ff4;
+}
+
+.project-title-con:hover .project-desc {
+    color: #fff;
+}
+
+.project-title {
+    color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.project-desc {
+    font-size: 12px;
+    color: transparent;
+    letter-spacing: 3px;
 }
